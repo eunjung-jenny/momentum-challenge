@@ -1,0 +1,68 @@
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.clock {
+  font-size: 60px;
+  margin-top: 200px;
+}
+
+.greeting,
+.to-do {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.greeting__input,
+.to-do__input {
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  font-style: italic;
+  text-align: center;
+}
+
+.greeting__input:focus,
+.to-do__input:focus {
+  outline: none;
+}
+
+.greeting__input {
+  display: none;
+}
+
+.greeting__input::placeholder {
+  font-size: 15px;
+  color: white;
+  font-style: italic;
+}
+
+.to-do__input {
+  margin-top: 15px;
+  width: 250px;
+  border-bottom: 1px solid white;
+}
+
+.greeting__text {
+  font-size: 20px;
+  display: none;
+}
+
+.to-do {
+  margin-top: 50px;
+}
+
+.to-do__list {
+  list-style: none;
+  padding: 0;
+}
+
+.show {
+  display: block;
+}

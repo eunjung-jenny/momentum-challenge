@@ -26,6 +26,7 @@ body {
   font-size: 15px;
   font-style: italic;
   text-align: center;
+  border-bottom: 1px solid white;
 }
 
 .greeting__input:focus,
@@ -33,7 +34,11 @@ body {
   outline: none;
 }
 
-.greeting__input {
+.greeting__input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.greeting__form {
   display: none;
 }
 
@@ -46,12 +51,12 @@ body {
 .to-do__input {
   margin-top: 15px;
   width: 250px;
-  border-bottom: 1px solid white;
 }
 
 .greeting__text {
   font-size: 20px;
   display: none;
+  cursor: pointer;
 }
 
 .to-do {

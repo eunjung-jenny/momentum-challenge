@@ -6,6 +6,25 @@ body {
   color: white;
 }
 
+.geo {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.geo__weather {
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.weather__icon {
+  height: 40px;
+  margin-right: 5px;
+}
+
 .clock {
   font-size: 60px;
   margin-top: 200px;
